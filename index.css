@@ -1,0 +1,58 @@
+/* Add some basic styling for better presentation */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    position: relative; /* Ensure delete button can be positioned absolutely */
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+button.delete-button {
+    background-color: #f44336; /* Red background for delete button */
+    right: 10px; /* Align to the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust position to middle */
+}
+button.delete-button:hover {
+    background-color: #e53935;
+}
